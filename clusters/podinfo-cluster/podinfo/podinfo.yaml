@@ -18,8 +18,8 @@ spec:
       tag: latest-20250621130825
       pullPolicy: IfNotPresent
     ui:
-      color: "#532864"
-      message: "Hello, I am podinfo version latest-20250621130825."
+      color: "#cd5b1c"
+      message: "Hello, I am podinfo version latest-20250621130825. Hi Tanisa."
   install:
     createNamespace: true
   uninstall:
