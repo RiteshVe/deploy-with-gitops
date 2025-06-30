@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: https://github.com/RiteshVe/deploy-with-gitops.git
+  url: ssh://git@github.com/RiteshVe/deploy-with-gitops
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
